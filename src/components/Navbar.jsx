@@ -2,7 +2,7 @@ import styled from "styled-components"
 const Navbar=()=>{
     return <DIV>
         <div id="nav-profile">
-            <div>
+            <div id="user-detail-name">
                <p>JP</p>
             </div>
         </div>
@@ -12,6 +12,7 @@ const Navbar=()=>{
             <p><a className="nav-link skills" href="#skills">Skills</a></p>
             <p><a className="nav-link projects" href="#projects">Projects</a></p>
             <p><a className="nav-link contact" href="#contact">Contact</a></p>
+            <p><a className="nav-link resume" href="#">Resume</a></p>
         </div>
     </DIV>
 }
@@ -31,7 +32,7 @@ const DIV=styled.div`
 
 
     #nav-profile{
-        width: 100%;
+        width: 50%;
         margin-left:100px;
     }
     #nav-profile > div{
