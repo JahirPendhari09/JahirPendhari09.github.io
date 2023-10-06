@@ -1,4 +1,7 @@
-import styled from "styled-components"
+import styled from "styled-components";
+import { Link } from "@chakra-ui/react";
+import resume from "../Images/resume.png";
+
 const Navbar=()=>{
     return <DIV>
         <div id="nav-profile">
@@ -12,7 +15,27 @@ const Navbar=()=>{
             <p><a className="nav-link skills" href="#skills">Skills</a></p>
             <p><a className="nav-link projects" href="#projects">Projects</a></p>
             <p><a className="nav-link contact" href="#contact">Contact</a></p>
-            <p><a className="nav-link resume" href="#">Resume</a></p>
+            <p><Link
+               id="resume-button-1"
+               className="nav-link resume"
+               href={resume}
+               download={true}
+               style={{
+                textDecoration:"none",
+               }}
+               target="_blank"
+               textAlign="center"
+               onClick={() => {
+               window.open(
+                 "https://drive.google.com/file/d/1PKOfb7E58nr4_5XTVaK4e_9dk7JfQw8y/view?usp=sharing",
+                 "_blank",
+                 "noreferrer"
+                );
+               }}
+             >
+              Resume
+            </Link>
+            </p>
         </div>
     </DIV>
 }
