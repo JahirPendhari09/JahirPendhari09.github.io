@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import profilePic from "../Images/Jahir_Pic.png"
 import { Link } from "@chakra-ui/react";
-import resume from "../Images/resume.png";
+import resume from "../Images/resume.pdf";
 const Home=()=>{
     return (
      <DIV>
