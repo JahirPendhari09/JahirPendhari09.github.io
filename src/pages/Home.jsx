@@ -2,6 +2,7 @@ import styled from "styled-components";
 import profilePic from "../Images/Jahir_Pic.png"
 import { Link } from "@chakra-ui/react";
 import resume from "../Images/resume.pdf";
+
 const Home=()=>{
     return (
      <DIV>
@@ -17,8 +18,10 @@ const Home=()=>{
             <p style={{margin:"20px"}}><Link
                id="resume-button-2"
                className="resume"
+
                href={resume}
                download={true}
+               
                style={{
                 padding:"10px",
                 borderRadius:"10px",
