@@ -15,9 +15,9 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
-      <Contact/>
       <Projects/>
       <ActivityGraph/>
+      <Contact/>
     </div>
   );
 }
