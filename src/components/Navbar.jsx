@@ -27,7 +27,7 @@ const Navbar=()=>{
                textAlign="center"
                onClick={() => {
                window.open(
-                 "https://drive.google.com/file/d/1PKOfb7E58nr4_5XTVaK4e_9dk7JfQw8y/view?usp=sharing",
+                 "https://drive.google.com/file/d/1F7vmOodU-p1YQNgYkA20eEQPLnarxjUi/view?usp=sharing",
                  "_blank",
                  "noreferrer"
                 );

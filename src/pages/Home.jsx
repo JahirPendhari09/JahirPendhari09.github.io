@@ -8,10 +8,10 @@ const Home=()=>{
      <DIV>
           <div id="home" className="mainDiv">
           <div className="div-1">
-            <img   src={profilePic} alt="My Photo"className="home-img"/>
+            <img   src={profilePic} alt="My Photo"className="home-img" />
           </div>
           <div className="div-2" id="user-detail-intro">  
-            <p style={{fontSize:"35px",fontWeight:"bold"}}>Hello 👋</p>
+            <p style={{fontSize:"35px",fontWeight:"bold"}}>Hello👋</p>
             <p>
                 Welcome to my portfolio, showcasing my expertise in full stack web development. Trained by Masai School, I have a strong command of the MERN stack, API integrations, and responsive design. I have successfully created diverse projects that blend functionality with aesthetics, demonstrating collaborative teamwork and meticulous attention to details. Step into my world of code and innovation, where each line is crafted to leave a lasting impact.
             </p>
@@ -32,7 +32,7 @@ const Home=()=>{
                textAlign="center"
                onClick={() => {
                window.open(
-                 "https://drive.google.com/file/d/1PKOfb7E58nr4_5XTVaK4e_9dk7JfQw8y/view?usp=sharing",
+                 "https://drive.google.com/file/d/1F7vmOodU-p1YQNgYkA20eEQPLnarxjUi/view?usp=sharing",
                  "_blank",
                  "noreferrer"
                 );
@@ -77,6 +77,6 @@ const DIV=styled.div`
   img{
     width: 90%;
     height: 100%;
-    border-radius:10px;
+    border-radius:30px;
   }
 `

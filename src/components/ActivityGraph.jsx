@@ -1,6 +1,7 @@
 
 import GitHubCalendar from "react-github-calendar";
 import "./Calender.css";
+import { Stats } from "./Stats";
 
 const ActivityGraph = () => {
   
@@ -25,6 +26,7 @@ const ActivityGraph = () => {
         >
         </GitHubCalendar>
       </div>
+      <Stats/>
     </div>
   );
 };
