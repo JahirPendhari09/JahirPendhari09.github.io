@@ -81,7 +81,7 @@ const DIV=styled.div`
     }
     a{
         text-decoration:none;
-        color: #0af30a;
+        color: #99e999;
     }
     a:hover{
         color:orange;
