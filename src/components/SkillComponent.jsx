@@ -1,8 +1,5 @@
 import React from "react";
 
-
-
-
 const SkillComponent = ({ text, img,border,boxShowdo }) => {
   return (
     <div className="skills-card" style={{padding:"20px",width:"100%",height:"350px",borderRadius:"20px",cursor:"pointer", boxShadow:`0px 2px 8px 3px ${boxShowdo}`}}>
