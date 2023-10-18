@@ -9,7 +9,12 @@
   pointer-events: none;
 }
 
-
+.project-title{
+  text-align:justify;
+  font-family:sans-serif;
+  font-weight:550;
+  color:rgb(110,20,200);
+}
 
 .project{
   color:black;
