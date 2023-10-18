@@ -5,7 +5,7 @@ const About = ({ theme }) => {
   return (
     <Flex
       id="about"
-      class="about section"
+      className="about section"
       w="90%"
       m="auto"
       direction="column"
