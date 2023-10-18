@@ -87,7 +87,6 @@ import {
               <Text
                 textAlign="justify"
                 color="#8B54F8"
-                className="project-title"
               >
                 Title :
               </Text>
@@ -96,6 +95,7 @@ import {
                 fontFamily="mono, sans-serif"
                 fontWeight="550"
                 color="rgb(110,20,200)"
+                className="project-title"
               >
                 {title}
               </Text>
