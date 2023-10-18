@@ -30,7 +30,7 @@ import {
           gap="1rem"
           direction={{ base: "column", sm: "column", md: "row" }}
           flexWrap="wrap"
-          className="project-card"
+          className=".project-card"
         >
           <Image
             float="left"

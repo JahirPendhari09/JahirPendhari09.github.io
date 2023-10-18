@@ -70,10 +70,9 @@ const Projects = () => {
     <Box
       id="projects"
       pb="6rem"
-      className={"project"}
+      className="project"
     >
      <h1
-      className=".project-title"
       style={{fontSize:"35px",fontWeight:"bold",textShadow:"2px 2px 10px rgb(250 200 100)",borderRadius:"10px",width:"200px",margin:"auto",border:"1px solid black",cursor:"pointer",marginBottom:"30px"}}
       >
       My Projects
