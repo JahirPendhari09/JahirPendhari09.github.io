@@ -1,7 +1,7 @@
 import { Flex, Heading, Text, Box, Image } from "@chakra-ui/react";
 import React from "react";
 
-const About = ({ theme }) => {
+const About = () => {
   return (
     <Flex
       id="about"

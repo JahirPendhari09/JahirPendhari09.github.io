@@ -29,7 +29,7 @@ import {
           gap="1rem"
           direction={{ base: "column", sm: "column", md: "row" }}
           flexWrap="wrap"
-          className="project-card"
+          className=".project-card"
         >
           <Image
             float="left"
@@ -40,6 +40,7 @@ import {
             borderBottomRightRadius="2rem"
             boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
             mr="1rem"
+
             alt={title}
           />
           <Text
@@ -52,7 +53,7 @@ import {
             fontFamily="mono, sans-serif"
             fontWeight="600"
             color="black"
-            className="project-description"
+            className=".project-description"
           >
             {information}
           </Text>
@@ -95,7 +96,7 @@ import {
                 fontFamily="mono, sans-serif"
                 fontWeight="550"
                 color="rgb(110,20,200)"
-                className="project-title"
+                className=".project-title"
               >
                 {title}
               </Text>
@@ -123,7 +124,7 @@ import {
                   boxShadow="0px 0px 5px grey"
                   height={{ sm: "1.7rem", md: "2rem" }}
                   minWidth={{ sm: "6.5rem", md: "8rem" }}
-                  className="project-tech-stack"
+                  className=".project-tech-stack"
 
                 >
                   Tech Stacks :
@@ -177,7 +178,7 @@ import {
               bgColor="whiteAlpha.700"
               borderRadius="5rem"
             >
-              <a href={github} target="_blank" rel="noreferrer" className="project-github-link">
+              <a href={github} target="_blank" rel="noreferrer" className=".project-github-link">
                 <Tooltip
                   label="See Code base"
                   placement="left-start"
@@ -206,7 +207,7 @@ import {
                 href={deployLink}
                 target="_blank"
                 rel="noreferrer"
-                className="project-deployed-link"
+                className=".project-deployed-link"
                 style={{
                   boxShadow: "0px 1px 2px 2px rgba(20, 20, 20, 0.7)",
                   borderRadius: "5px",

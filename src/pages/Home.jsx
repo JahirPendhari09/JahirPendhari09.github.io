@@ -16,7 +16,7 @@ const Home=()=>{
                 Welcome to my portfolio, showcasing my expertise in full stack web development. Trained by Masai School, I have a strong command of the MERN stack, API integrations, and responsive design. I have successfully created diverse projects that blend functionality with aesthetics, demonstrating collaborative teamwork and meticulous attention to details. Step into my world of code and innovation, where each line is crafted to leave a lasting impact.
             </p>
             <p style={{margin:"20px"}}><Link
-               id="resume-button-2"
+               id="resume-button"
                className="resume"
 
                href={resume}
