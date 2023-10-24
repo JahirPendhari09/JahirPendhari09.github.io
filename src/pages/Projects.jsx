@@ -34,7 +34,7 @@ let ProjectArray = [
       "JavaScript",
     ],
     img: Edukin,
-    github: "https://github.com/JahirPendhari09/remarkable-ice-65642",
+    github: "https://github.com/JahirPendhari09/remarkable-ice-6564_new_fork",
     deployLink: "https://edukin.netlify.app/",
   },
   {
