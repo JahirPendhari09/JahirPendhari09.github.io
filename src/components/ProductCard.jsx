@@ -1,16 +1,7 @@
-import {
-    Button,
-    Flex,
-    Tooltip,
-    Image,
-    Text,
-    Box,
-    Grid,
-  } from "@chakra-ui/react";
-  import React from "react";
-  import  "../App.css";
+import {Button,Flex,Tooltip,Image,Text,Box} from "@chakra-ui/react";
+import React from "react";
+import  "../App.css";
   
-
   const ProjectCard = ({
     information,
     title,
@@ -21,16 +12,16 @@ import {
   }) => {
     return (
       <Flex
-        className="cardStyleLight"
         width={{ base: "90%", sm: "90%", md: "80%" }}
         cursor="pointer"
+        className="project-card"
       >
         <Box
           justifyContent="space-between"
           gap="1rem"
           direction={{ base: "column", sm: "column", md: "row" }}
           flexWrap="wrap"
-          className="project-card"
+          
         >
           <Image
             float="left"

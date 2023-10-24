@@ -1,4 +1,5 @@
 import React from "react";
+import { ExternalAccounts } from "../components/ExternalAccounts";
 
 const Contact = () => {
   
@@ -30,6 +31,11 @@ const Contact = () => {
       >
         Call: 91-8668953367
       </p>
+
+      <div style={{ width:"200px",margin:"auto"}}>
+        <ExternalAccounts/>
+      </div>
+      
    
       <p
         style={{fontSize:"16px", fontWeight:"700",textShadow:"2px 2px 10px rgb(200 150 100)",marginTop:"30px" }}

@@ -73,7 +73,7 @@ const Projects = () => {
       className="project"
     >
      <h1
-      style={{fontSize:"35px",fontWeight:"bold",textShadow:"2px 2px 10px rgb(250 200 100)",borderRadius:"10px",width:"200px",margin:"auto",border:"1px solid black",cursor:"pointer",marginBottom:"30px"}}
+      style={{fontSize:"35px",fontWeight:"bold",textShadow:"2px 2px 10px rgb(250 200 100)",borderRadius:"10px",width:"220px",margin:"auto",border:"1px solid black",cursor:"pointer",marginBottom:"30px"}}
       >
       My Projects
       </h1>
