@@ -13,7 +13,7 @@ const ActivityGraph = () => {
       className="react-activity-calendar"
        style={{fontSize:"35px",fontWeight:"bold",textShadow:"2px 2px 10px rgb(250 200 100)",borderRadius:"10px",width:"300px",margin:"auto",border:"1px solid black",cursor:"pointer"}}
       > 
-          Github Calender
+          Github Calendar
       </h1>
       <div
         style={{width:"90%",margin:"auto",marginTop:"30px"}}
