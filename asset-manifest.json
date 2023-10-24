@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.de7dedcc.css",
-    "main.js": "/static/js/main.ef91d185.js",
+    "main.js": "/static/js/main.b466b3ad.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/LocalPageHomepage.png": "/static/media/LocalPageHomepage.4d3422f43c9d241462f4.png",
-    "static/media/resume.pdf": "/static/media/resume.f3961ea7e912d8ab0820.pdf",
+    "static/media/Jahir_Resume.pdf": "/static/media/Jahir_Resume.7cc7936500639ad81acd.pdf",
     "static/media/EdukinHomepage.png": "/static/media/EdukinHomepage.f7d2bb3667b5dab10e19.png",
     "static/media/Jahir_Pic.png": "/static/media/Jahir_Pic.caf12c6aaa68e7c65f14.png",
     "static/media/CurrChangeHomepage.png": "/static/media/CurrChangeHomepage.1bba849b00dd8821c052.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.de7dedcc.css.map": "/static/css/main.de7dedcc.css.map",
-    "main.ef91d185.js.map": "/static/js/main.ef91d185.js.map",
+    "main.b466b3ad.js.map": "/static/js/main.b466b3ad.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de7dedcc.css",
-    "static/js/main.ef91d185.js"
+    "static/js/main.b466b3ad.js"
   ]
 }
