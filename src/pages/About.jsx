@@ -107,6 +107,7 @@ const About = () => {
           </Flex>
         </Box>
         <Image
+          id="user-detail-intro"
           width={{ base: "90%", sm: "50%", md: "30%" }}
           flex="1"
           objectFit="content"

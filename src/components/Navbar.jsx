@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "@chakra-ui/react";
-import resume from "../Images/resume.pdf";
+import resume from "../Images/Jahir_Resume.pdf";
 
 const Navbar=()=>{
     return <DIV>

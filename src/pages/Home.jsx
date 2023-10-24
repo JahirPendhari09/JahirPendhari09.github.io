@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import profilePic from "../Images/Jahir_Pic.png"
 import { Flex, Link } from "@chakra-ui/react";
-import resume from "../Images/resume.pdf";
+import resume from "../Images/Jahir_Resume.pdf";
 import { ExternalAccounts } from "../components/ExternalAccounts";
 
 const Home=()=>{
@@ -16,13 +16,11 @@ const Home=()=>{
             <p id="user-detail-intro">
                 Welcome to my portfolio, showcasing my expertise in full stack web development. Trained by Masai School, I have a strong command of the MERN stack, API integrations, and responsive design. I have successfully created diverse projects that blend functionality with aesthetics, demonstrating collaborative teamwork and meticulous attention to details. Step into my world of code and innovation, where each line is crafted to leave a lasting impact.
             </p>
-            <p style={{margin:"20px"}}><Link
+            <p style={{margin:"20px"}}><Link 
                id="resume-button-2"
                className="resume"
-
                href={resume}
                download={true}
-               
                style={{
                 padding:"10px",
                 borderRadius:"10px",
