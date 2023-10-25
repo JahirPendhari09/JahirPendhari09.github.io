@@ -61,15 +61,13 @@ const About = () => {
             color={"rgb(30, 8, 8)"}
             id="user-detail-intro"
           >
-            As an aspiring full-stack MERN developer, I am passionate about
-            creating projects that positively impact and serve the masses. With
-            a strong drive to make a difference, I thrive in fast-paced
-            environments and embrace challenges as opportunities for growth.
-            Specializing in the MERN stack, I am eager to contribute my skills
-            and expertise to create innovative solutions that meet the demands
-            of today's dynamic industry. Ready to embark on a journey of
-            continuous learning and delivering impactful results as a dedicated
-            MERN stack developer.
+            I'm a passionate Full-stack Web Developer with a robust skill set in HTML, CSS, JavaScript,
+            REST API, Node.js, React, MongoDB, Express.js, and GitHub. My expertise lies in seamlessly
+            blending functionality and aesthetics to deliver visually appealing and flawless web
+            applications.
+            Dedicated to perpetual learning and staying updated with emerging technologies, I'm
+            committed to making a lasting impact in the world of full-stack web development. Let's
+            connect and explore opportunities to create innovative web solutions together!
           </Text>
           <Flex
             m={{ base: "0.4rem auto", sm: "0.6rem auto", md: "1rem auto" }}
