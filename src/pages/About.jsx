@@ -32,13 +32,14 @@ const About = () => {
         flexDir={{ base: "column", sm: "column", md: "row" }}
         p={{base:"1rem",sm:"1rem",md:"2rem 2.3rem 3.4rem"}}
         background={"rgb(206, 241, 247)"}
-        id="user-detail-intro"
+      
       >
         <Box
           zIndex="10"
           width={{ base: "90%", sm: "97%", md: "60%" }}
           float="left"
           flex="2"
+          id="user-detail-intro"
         >
           <Text
             m="1rem 0rem"

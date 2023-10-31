@@ -3,6 +3,7 @@ import profilePic from "../Images/Jahir_Pic.png"
 import { Flex, Link } from "@chakra-ui/react";
 import resume from "../Images/Jahir_Resume.pdf";
 import { ExternalAccounts } from "../components/ExternalAccounts";
+import { About } from "./About";
 
 const Home=()=>{
     return (
@@ -42,11 +43,13 @@ const Home=()=>{
             </Link>
             </p>
             <ExternalAccounts/>
-
           </div>
-         
+        </div>
+        <div>
+        <About/>
         </div>
      </DIV>
+    
       );
 }
 
