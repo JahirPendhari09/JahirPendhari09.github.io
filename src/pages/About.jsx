@@ -32,6 +32,7 @@ const About = () => {
         flexDir={{ base: "column", sm: "column", md: "row" }}
         p={{base:"1rem",sm:"1rem",md:"2rem 2.3rem 3.4rem"}}
         background={"rgb(206, 241, 247)"}
+        id="user-detail-intro"
       >
         <Box
           zIndex="10"
@@ -59,7 +60,6 @@ const About = () => {
             fontWeight="600"
             textAlign="justify"
             color={"rgb(30, 8, 8)"}
-            id="user-detail-intro"
           >
             I'm a passionate Full-stack Web Developer with a robust skill set in HTML, CSS, JavaScript,
             REST API, Node.js, React, MongoDB, Express.js, and GitHub. My expertise lies in seamlessly
