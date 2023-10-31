@@ -12,7 +12,7 @@ const Home=()=>{
           <div className="div-1">
             <img   src={profilePic} alt="My Photo"className="home-img" />
           </div>
-          <div className="div-2" id="user-detail-intro">  
+          <div className="div-2">  
             <p style={{fontSize:"35px",fontWeight:"bold"}}>Hello👋</p>
             <p>
                 Welcome to my portfolio, showcasing my expertise in full stack web development. Trained by Masai School, I have a strong command of the MERN stack, API integrations, and responsive design. I have successfully created diverse projects that blend functionality with aesthetics, demonstrating collaborative teamwork and meticulous attention to details. Step into my world of code and innovation, where each line is crafted to leave a lasting impact.

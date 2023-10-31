@@ -39,7 +39,6 @@ const About = () => {
           width={{ base: "90%", sm: "97%", md: "60%" }}
           float="left"
           flex="2"
-          id="user-detail-intro"
         >
           <Text
             m="1rem 0rem"
@@ -61,13 +60,14 @@ const About = () => {
             fontWeight="600"
             textAlign="justify"
             color={"rgb(30, 8, 8)"}
+            id="user-detail-intro"
           >
-            I'm a passionate Full-stack Web Developer with a robust skill set in HTML, CSS, JavaScript,
-            REST API, Node.js, React, MongoDB, Express.js, and GitHub. My expertise lies in seamlessly
+           <span style={{color:"blue"}}>I'm a passionate Full-stack Web Developer</span>  with a robust skill set in HTML, CSS, JavaScript,
+            REST API, Node.js, React, MongoDB, Express.js, and GitHub.<span> My expertise lies in seamlessly
             blending functionality and aesthetics to deliver visually appealing and flawless web
-            applications.
-            Dedicated to perpetual learning and staying updated with emerging technologies, I'm
-            committed to making a lasting impact in the world of full-stack web development. Let's
+            applications.</span>
+            <span> Dedicated to perpetual learning and staying updated with emerging technologies, I'm
+            committed to making a lasting impact in the world of full-stack web development. </span> Let's
             connect and explore opportunities to create innovative web solutions together!
           </Text>
           <Flex
