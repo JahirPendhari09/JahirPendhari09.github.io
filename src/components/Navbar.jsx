@@ -15,11 +15,11 @@ const Navbar=()=>{
             <p><a className="nav-link skills" href="#skills">Skills</a></p>
             <p><a className="nav-link projects" href="#projects">Projects</a></p>
             <p><a className="nav-link contact" href="#contact">Contact</a></p>
-            <p><Link
+            <a
                id="resume-button-1"
                className="nav-link resume"
                href={resume}
-               download={true}
+               download
                style={{
                 textDecoration:"none",
                }}
@@ -34,8 +34,8 @@ const Navbar=()=>{
                }}
              >
               Resume
-            </Link>
-            </p>
+            </a>
+        
         </div>
     </DIV>
 }
