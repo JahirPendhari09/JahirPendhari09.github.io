@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import profilePic from "../Images/Jahir_Pic.png"
+import profilePic from "../Images/profile.jpg"
 import { Flex, Link } from "@chakra-ui/react";
 import resume from "../Images/Jahir_Resume.pdf";
 import { ExternalAccounts } from "../components/ExternalAccounts";
@@ -14,10 +14,10 @@ const Home=()=>{
           </div>
           <div className="div-2">  
             <p style={{fontSize:"35px",fontWeight:"bold"}}>Hello👋</p>
-            <p>
+            <p  style={{marginBottom:"50px"}}>
                 Welcome to my portfolio, showcasing my expertise in full stack web development. Trained by Masai School, I have a strong command of the MERN stack, API integrations, and responsive design. I have successfully created diverse projects that blend functionality with aesthetics, demonstrating collaborative teamwork and meticulous attention to details. Step into my world of code and innovation, where each line is crafted to leave a lasting impact.
             </p>
-            <p style={{margin:"20px"}}><Link 
+            <p style={{margin:"20px"}}><a
                id="resume-button-2"
                className="resume"
                href={resume}
@@ -25,6 +25,7 @@ const Home=()=>{
                style={{
                 padding:"10px",
                 borderRadius:"10px",
+                
                 backgroundColor:"green",
                 textDecoration:"none",
                 color:"white",
@@ -40,7 +41,7 @@ const Home=()=>{
                }}
              >
               Resume
-            </Link>
+            </a>
             </p>
             <ExternalAccounts/>
           </div>
@@ -64,8 +65,8 @@ const DIV=styled.div`
     margin:auto;
     margin-top:50px;
     padding: 20px;
-    background-color:lightgreen;
-    border: 1px solid blue;
+    /* background-color:lightgreen; */
+    /* border: 1px solid blue; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(9, 82, 200, 0.3) 0px 8px 16px -8px;
     cursor: pointer;
   }
@@ -83,6 +84,6 @@ const DIV=styled.div`
   img{
     width: 90%;
     height: 100%;
-    border-radius:30px;
+    border-radius:20px;
   }
 `

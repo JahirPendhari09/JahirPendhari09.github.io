@@ -1,5 +1,5 @@
 import { Flex, Link } from "@chakra-ui/react";
-
+import leetcode from "../Images/leetcode.png"
 
 const ExternalAccounts =()=>{
     return <>
@@ -9,7 +9,7 @@ const ExternalAccounts =()=>{
     mt="2rem"
     direction={{ base: "column", sm: "row", md: "row" }}
     width={{ base: "5rem", sm: "6rem", md: "8rem" }}
-    style={{ userSelect: "none", WebkitUserSelect: "none" }}
+    // style={{ userSelect: "none", WebkitUserSelect: "none" }}
      >
     <a
       target="_blank"
@@ -24,6 +24,11 @@ const ExternalAccounts =()=>{
         />
       </svg>
     </a>
+    <div style={{display:"flex"}}>
+        <a href="https://leetcode.com/Jahir09/" target="_blank" style={{width:"50px"}}>
+          <img src={leetcode} style={{width:"50px", height:"50px",borderRadius:"50%"}}/>
+        </a>
+    </div>
     <a
       target="_blank"
       rel="noreferrer"
@@ -58,7 +63,7 @@ const ExternalAccounts =()=>{
         ></path>
       </svg>
     </a>
-  </Flex>
+  </Flex> 
   </>
 }
 

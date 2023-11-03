@@ -10,7 +10,7 @@ const About = () => {
       m="auto"
       direction="column"
       padding="2rem 0rem"
-      mt="2rem"
+      mt="1rem"
     >
    <h1
       style={{fontSize:"35px",fontWeight:"bold",textShadow:"2px 2px 10px rgb(250 200 100)",borderRadius:"10px",width:"200px",margin:"auto",border:"1px solid black",cursor:"pointer"}}
