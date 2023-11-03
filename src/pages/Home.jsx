@@ -18,7 +18,7 @@ const Home=()=>{
             <p  style={{marginBottom:"50px"}}>
                 Welcome to my portfolio, showcasing my expertise in full stack web development. Trained by Masai School, I have a strong command of the MERN stack, API integrations, and responsive design. I have successfully created diverse projects that blend functionality with aesthetics, demonstrating collaborative teamwork and meticulous attention to details. Step into my world of code and innovation, where each line is crafted to leave a lasting impact.
             </p>
-            {/* <a
+            <a
                id="resume-button-2"
                className="resume"
                href={resume}
@@ -41,9 +41,9 @@ const Home=()=>{
                }}
              >
               Resume
-            </a> */}
+            </a>
             
-            <a
+            {/* <a
                 style={{
                     textDecoration: "none"
                 }}
@@ -57,7 +57,7 @@ const Home=()=>{
                 <Button rightIcon={<DownloadIcon />} id="resume-button-2" bg={ "green"} color={"white"} _hover={{ color: "none" }} >
                     Resume
                 </Button>
-            </a>
+            </a> */}
             <ExternalAccounts/>
           </div>
         </div>
