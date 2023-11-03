@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import profilePic from "../Images/profile.jpg"
-import { Flex, Link } from "@chakra-ui/react";
+import { Button, Flex, Link } from "@chakra-ui/react";
 import resume from "../Images/Jahir_Resume.pdf";
 import { ExternalAccounts } from "../components/ExternalAccounts";
 import { About } from "./About";
+import { DownloadIcon } from "@chakra-ui/icons";
 
 const Home=()=>{
     return (
@@ -17,7 +18,7 @@ const Home=()=>{
             <p  style={{marginBottom:"50px"}}>
                 Welcome to my portfolio, showcasing my expertise in full stack web development. Trained by Masai School, I have a strong command of the MERN stack, API integrations, and responsive design. I have successfully created diverse projects that blend functionality with aesthetics, demonstrating collaborative teamwork and meticulous attention to details. Step into my world of code and innovation, where each line is crafted to leave a lasting impact.
             </p>
-            <a
+            {/* <a
                id="resume-button-2"
                className="resume"
                href={resume}
@@ -40,6 +41,22 @@ const Home=()=>{
                }}
              >
               Resume
+            </a> */}
+            
+            <a
+                style={{
+                    textDecoration: "none"
+                }}
+                href="https://drive.google.com/u/0/uc?id=1a79_bKFSag1TB4vbKTZw7LUTLniwanox&export=download"
+                target="_blank"
+                id="resume-link-2"
+                download
+                rel="noreferrer"
+                textAlign="center"
+            >
+                <Button rightIcon={<DownloadIcon />} id="resume-button-2" bg={ "green"} color={"white"} _hover={{ color: "none" }} >
+                    Resume
+                </Button>
             </a>
             <ExternalAccounts/>
           </div>

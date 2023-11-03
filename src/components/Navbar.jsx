@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "@chakra-ui/react";
 import resume from "../Images/Jahir_Resume.pdf";
 
 const Navbar=()=>{
@@ -35,7 +34,6 @@ const Navbar=()=>{
              >
               Resume
             </a>
-        
         </div>
     </DIV>
 }
