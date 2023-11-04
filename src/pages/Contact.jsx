@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      style={{width:"90%",margin:"auto",marginBottom:"30px",border:"1px solid black", userSelect: "none", WebkitUserSelect: "none" ,marginTop:"30px",padding:"20px", borderRadius:"20px"}}
+      style={{width:"90%",margin:"auto",marginBottom:"30px", userSelect: "none", WebkitUserSelect: "none" ,marginTop:"30px",padding:"20px", borderRadius:"20px"}}
     >
       <h1
       style={{fontSize:"35px",fontWeight:"bold",textShadow:"2px 2px 10px rgb(250 200 100)",borderRadius:"10px",width:"300px",margin:"auto",border:"1px solid black",cursor:"pointer"}}

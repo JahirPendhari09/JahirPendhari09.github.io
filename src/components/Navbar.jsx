@@ -5,7 +5,7 @@ const Navbar=()=>{
     return <DIV>
         <div id="nav-profile">
             <div id="user-detail-name">
-               <p>JP</p>
+               <p>Jahir</p>
             </div>
         </div>
         <div id="nav-menu" >
@@ -44,12 +44,13 @@ const DIV=styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin:auto;
+    top: 0px;
+    position: fixed;
     height: 80px;
-    background-color:black;
+    background-color:lightblue;
     color: white;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(13, 20, 243, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: hsla(0, 0%, 0%, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(13, 20, 243, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
 
     #nav-profile{
@@ -57,17 +58,15 @@ const DIV=styled.div`
         margin-left:100px;
     }
     #nav-profile > div{
-        width: 60px;
+        width: 100px;
         height: 60px;
-        border: 1px solid green;
-        border-radius:50%;
-        background-color:green;
+        color:black;
         padding-top:10px;
         cursor: pointer;
     }
     #nav-profile > div > p{
-        /* margin-bottom:10px; */
-        font-size: 25px;
+        color: blue;
+        font-size: 30px;
         font-weight:bold;
     }
     #nav-menu{
@@ -79,7 +78,7 @@ const DIV=styled.div`
     }
     a{
         text-decoration:none;
-        color: #99e999;
+        color: blue;
     }
     a:hover{
         color:orange;

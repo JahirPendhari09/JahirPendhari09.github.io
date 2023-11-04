@@ -9,7 +9,7 @@ import currChange from "../Images/CurrChangeHomepage.png"
 let ProjectArray = [
   {
     information:
-      "Paitku is E-commerce website. where user can buy verious types of Paitings.",
+      "PaintKu, where art finds its home. Discover a world of exquisite paintings through this innovative e-commerce platform. Browse, select, and acquire stunning artworks while enjoying the convenience of tracking your recent visits. Welcome to the gallery at your fingertips.",
     title: "PaintKu.com",
     techStacks: [
       "HTML5",
@@ -56,7 +56,7 @@ let ProjectArray = [
   {
     information:
       "This website is about Currency conversion.",
-    title: "MoneyChanger.com",
+    title: "Paywise.com",
     techStacks: ["HTML5", "CSS3", "JavaScript"],
     img: currChange,
     github: "https://github.com/JahirPendhari09/huge-end-8625",

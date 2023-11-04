@@ -78,10 +78,8 @@ const DIV=styled.div`
     justify-content: space-between;
     border-radius: 20px;
     margin:auto;
-    margin-top:50px;
+    margin-top:100px;
     padding: 20px;
-    /* background-color:lightgreen; */
-    /* border: 1px solid blue; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(9, 82, 200, 0.3) 0px 8px 16px -8px;
     cursor: pointer;
   }
