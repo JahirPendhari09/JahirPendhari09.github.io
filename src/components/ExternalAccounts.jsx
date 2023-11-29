@@ -9,7 +9,6 @@ const ExternalAccounts =()=>{
     mt="2rem"
     direction={{ base: "column", sm: "row", md: "row" }}
     width={{ base: "5rem", sm: "6rem", md: "8rem" }}
-    // style={{ userSelect: "none", WebkitUserSelect: "none" }}
      >
     <a
       target="_blank"
