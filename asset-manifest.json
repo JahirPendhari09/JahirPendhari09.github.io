@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e694f400.css",
-    "main.js": "/static/js/main.8ce86068.js",
+    "main.js": "/static/js/main.4d15bd22.js",
     "static/media/LocalPageHomepage.png": "/static/media/LocalPageHomepage.4d3422f43c9d241462f4.png",
     "static/media/Jahir_Resume.pdf": "/static/media/Jahir_Resume.7cc7936500639ad81acd.pdf",
     "static/media/EdukinHomepage.png": "/static/media/EdukinHomepage.f7d2bb3667b5dab10e19.png",
@@ -9,10 +9,10 @@
     "static/media/CurrChangeHomepage.png": "/static/media/CurrChangeHomepage.1bba849b00dd8821c052.png",
     "index.html": "/index.html",
     "main.e694f400.css.map": "/static/css/main.e694f400.css.map",
-    "main.8ce86068.js.map": "/static/js/main.8ce86068.js.map"
+    "main.4d15bd22.js.map": "/static/js/main.4d15bd22.js.map"
   },
   "entrypoints": [
     "static/css/main.e694f400.css",
-    "static/js/main.8ce86068.js"
+    "static/js/main.4d15bd22.js"
   ]
 }
