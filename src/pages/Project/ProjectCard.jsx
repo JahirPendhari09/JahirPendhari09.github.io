@@ -104,17 +104,9 @@ const ProjectCard = ({
           <Flex
             justifyContent="center"
             alignItems="center"
-            // border={`0.1rem solid ${!theme?"black":"white"}`}
             color={`${!theme?"black":"white"}`}
-            width={{ base: "100%", sm: "63%", md: "35%" }}
-            // width="auto"
-            // flexDirection={{ base: "column", sm: "row", md: "row" }}
-            // background="cyan.300"
-            // borderRadius="10px"
-            // m="1rem 0rem"
+            width={{ base: "100%", sm: "63%", md: "35%" }}           
             boxShadow="0px 0px 4px 0px black"
-            // backgroundColor="transparent"
-            // p="1rem"
             boxSizing="border-box"
             m="1rem 0rem"
             as="b"
@@ -126,7 +118,6 @@ const ProjectCard = ({
           >
             <Text
               textAlign="justify"
-              className="project-title"
               color={`${!theme?"#3182CE":"#8B54F8"}`}
             >
               Title :
@@ -167,9 +158,6 @@ const ProjectCard = ({
                 boxShadow="0px 0px 5px grey"
                 height={{ sm: "1.7rem", md: "2rem" }}
                 minWidth={{ sm: "6.5rem", md: "8rem" }}
-
-                className="project-tech-stack"
-                // display={{ base: "none", sm: "none", md: "flex" }}
               >
                 Tech Stacks :
               </Flex>
@@ -184,6 +172,7 @@ const ProjectCard = ({
               as="b"
               fontSize={{ base: "14px", sm: "17px", md: "1.2rem" }}
               textShadow="2px 2px 10px rgb(250 0 0)"
+              className="project-tech-stack"
             >
               {techStacks &&
                 techStacks.length !== 0 &&

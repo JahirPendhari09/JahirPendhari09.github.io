@@ -22,6 +22,7 @@ const About = ({ theme }) => {
       direction="column"
       padding="6rem 0rem"
       gap="1rem"
+    
     >
       <Heading
         as="h1"
@@ -42,6 +43,7 @@ const About = ({ theme }) => {
         borderTopRightRadius="5px"
         // color={!theme?"black":"white"}
         background={!theme?"rgb(206, 241, 247)":"black"}
+        className="about section"
       >
         About Me
       </Heading>

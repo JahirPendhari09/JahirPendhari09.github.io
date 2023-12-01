@@ -71,6 +71,19 @@ const Contact = ({ theme }) => {
       >
          Call: 91-8668953367
       </Text>
+      <Text
+        id="contact-email"
+        fontSize={{ base: "13px", sm: "16px", md: "18px" }}
+        fontWeight="700"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-duration="500"
+        data-aos-easing="ease-in-out"
+        textShadow="2px 2px 10px rgb(200 150 100)"
+      >
+        Email :- jahirpp1999@gmail.com
+      </Text>
+
 
       <Flex
         gap="1rem"
@@ -105,7 +118,7 @@ const Contact = ({ theme }) => {
           rel="noreferrer"
           href="https://www.linkedin.com/in/jahir-pendhari/"
           className={!theme ? "svg13" : "svg13Dark"}
-          id="contact-linkdin"
+          id="contact-linkedin"
         >
           <svg viewBox="0 0 512 512" className="svg131">
             <path
