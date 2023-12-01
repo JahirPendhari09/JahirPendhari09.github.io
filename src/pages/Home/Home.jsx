@@ -37,6 +37,7 @@ const Home = ({ setIsIntersection, obj, isIntersection, theme }) => {
       overflow="hidden"
       boxShadow={`0px 2px 6px ${!theme ? "#3182CE" : "#8B54F8"}`}
       p={{ base: "1rem", sm: "1rem", md: "2rem 2.3rem 3.4rem" }}
+      id="home"
     >
        <Flex
         flex="1"

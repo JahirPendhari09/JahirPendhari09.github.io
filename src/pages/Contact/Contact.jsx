@@ -91,6 +91,7 @@ const Contact = ({ theme }) => {
           w="0.5rem"
           href="https://github.com/JahirPendhari09"
           className={!theme ? "svg12" : "svg12Dark"}
+          id="contact-github"
         >
           <svg viewBox="71 71 370 370" className="svg121">
             <path
@@ -104,6 +105,7 @@ const Contact = ({ theme }) => {
           rel="noreferrer"
           href="https://www.linkedin.com/in/jahir-pendhari/"
           className={!theme ? "svg13" : "svg13Dark"}
+          id="contact-linkdin"
         >
           <svg viewBox="0 0 512 512" className="svg131">
             <path

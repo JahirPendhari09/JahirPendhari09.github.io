@@ -87,7 +87,7 @@ import {
               className={link.className}
               key={link.text} flex="1" as="h3" size="md">
               <HashLink to={link.to}>
-                <span id={link.text} className={`${!theme?stylee.navbarText:stylee.navbarTextDark}`}>
+                <span id={link.to} className={`${!theme?stylee.navbarText:stylee.navbarTextDark}`}>
                   {link.text}
                 </span>
               </HashLink>

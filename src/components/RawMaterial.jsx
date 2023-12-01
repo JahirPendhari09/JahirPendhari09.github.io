@@ -18,7 +18,7 @@ export const styleTheme = {
 
  export const hashlinks = [
   {
-    to:"#",
+    to:"#home",
     text:"Home",
     className:"nav-link home" 
   },

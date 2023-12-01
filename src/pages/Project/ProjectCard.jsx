@@ -137,6 +137,7 @@ const ProjectCard = ({
               fontFamily="mono, sans-serif"
               fontWeight="550"
               color={!theme ? "black" : "rgb(110,20,200)"}
+              className="project-title"
             >
               {title}
             </Text>
