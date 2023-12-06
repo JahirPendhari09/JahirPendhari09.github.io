@@ -5,7 +5,7 @@ const useToggleHook = () => {
      const changeToggle = ()=>{
         setToggle(!toggle);
      }
-     return [toggle, changeToggle]
+   return [toggle, changeToggle]
 }
 
 export default useToggleHook
