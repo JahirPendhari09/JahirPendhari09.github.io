@@ -41,7 +41,6 @@ const About = ({ theme }) => {
         p="0.2rem 0.8rem"
         borderTopLeftRadius="5px"
         borderTopRightRadius="5px"
-        // color={!theme?"black":"white"}
         background={!theme?"rgb(206, 241, 247)":"black"}
         className="about section"
       >
