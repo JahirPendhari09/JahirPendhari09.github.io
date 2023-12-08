@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e694f400.css",
-    "main.js": "/static/js/main.4d15bd22.js",
+    "main.js": "/static/js/main.40a852b0.js",
+    "static/media/Intellibot.png": "/static/media/Intellibot.3b53fe07b8922a5e404e.png",
     "static/media/LocalPageHomepage.png": "/static/media/LocalPageHomepage.4d3422f43c9d241462f4.png",
-    "static/media/Jahir_Resume.pdf": "/static/media/Jahir_Resume.7cc7936500639ad81acd.pdf",
     "static/media/EdukinHomepage.png": "/static/media/EdukinHomepage.f7d2bb3667b5dab10e19.png",
+    "static/media/Jahir-Pendhari-Resume.pdf": "/static/media/Jahir-Pendhari-Resume.d0b2344d97cc43a7a9e0.pdf",
     "static/media/profile.jpg": "/static/media/profile.8927348d50c5da637d77.jpg",
     "static/media/CurrChangeHomepage.png": "/static/media/CurrChangeHomepage.1bba849b00dd8821c052.png",
     "index.html": "/index.html",
     "main.e694f400.css.map": "/static/css/main.e694f400.css.map",
-    "main.4d15bd22.js.map": "/static/js/main.4d15bd22.js.map"
+    "main.40a852b0.js.map": "/static/js/main.40a852b0.js.map"
   },
   "entrypoints": [
     "static/css/main.e694f400.css",
-    "static/js/main.4d15bd22.js"
+    "static/js/main.40a852b0.js"
   ]
 }
