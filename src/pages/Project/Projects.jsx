@@ -13,7 +13,7 @@ import intellibot from "./Images/Intellibot.png"
 let ProjectArray = [
   {
     information:
-      "Intellibot is platform where Student of employees can give the mock interview with AI. and based on there performance AI will give Good Feedback.Also we implemented leaderboard to student can compare with other students.if Student want to see there Recording we have implemented the view Recording as well as student can see there all conversion with AI. ",
+      "Intellibot is a cutting-edge virtual interviewer designed to assist students in interview preparation. It not only guides them through simulated interview scenarios but also provides personalized feedback based on their performance, enhancing their interview skills and boosting confidence. ",
     title: "Intellibot.com",
     techStacks: [
       "HTML5",
