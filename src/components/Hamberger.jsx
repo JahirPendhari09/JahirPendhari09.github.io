@@ -2,7 +2,7 @@ import { Flex, Heading, Link, useColorModeValue } from "@chakra-ui/react";
 import React from "react";
 import { HashLink } from "react-router-hash-link";
 import { hashlinks } from "./RawMaterial";
-import resume from "../Images/Jahir_Resume.pdf";
+import resume from "../Images/Jahir-Pendhari-Resume.pdf";
 import stylee from "./Navbar.module.css";
 
 const Hamberger = ({ ChangeHamNav,theme }) => {
@@ -36,7 +36,7 @@ const Hamberger = ({ ChangeHamNav,theme }) => {
         style={{ textDecoration: "none" }}
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/1F7vmOodU-p1YQNgYkA20eEQPLnarxjUi/view?usp=sharing",
+            "https://drive.google.com/file/d/1FFYakH9w3bHXcSWQk4DC4Ghk6LnIpf1i/view?usp=sharing",
             "_blank",
             "noreferrer"
           )

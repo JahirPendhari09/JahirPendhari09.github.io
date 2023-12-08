@@ -13,7 +13,7 @@ import {
   import Theme from "./theme/Theme";
   import { hashlinks } from "./RawMaterial";
   import { useEffect } from "react";
-  import resume from "../Images/Jahir_Resume.pdf";
+  import resume from "../Images/Jahir-Pendhari-Resume.pdf";
   import stylee from "./Navbar.module.css";
   
   const Navbar = ({ theme, ChangeTheme }) => {
@@ -105,7 +105,7 @@ import {
             textAlign="center"
             onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1F7vmOodU-p1YQNgYkA20eEQPLnarxjUi/view?usp=sharing",
+                  "https://drive.google.com/file/d/1FFYakH9w3bHXcSWQk4DC4Ghk6LnIpf1i/view?usp=sharing",
                   "_blank",
                   "noreferrer"
                 );

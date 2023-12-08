@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import style from "./Home.module.css";
-import resume from "./Jahir_Resume.pdf";
+import resume from "./Jahir-Pendhari-Resume.pdf";
 
 let main = {
   id: "home",
@@ -143,7 +143,7 @@ const Home = ({ setIsIntersection, obj, isIntersection, theme }) => {
             textAlign="center"
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1F7vmOodU-p1YQNgYkA20eEQPLnarxjUi/view?usp=sharing",
+                "https://drive.google.com/file/d/1FFYakH9w3bHXcSWQk4DC4Ghk6LnIpf1i/view?usp=sharing",
                 "_blank",
                 "noreferrer"
               );

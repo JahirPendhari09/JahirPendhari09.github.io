@@ -8,8 +8,31 @@ import "aos/dist/aos.css";
 import localPay from "./Images/LocalPageHomepage.png";
 import Edukin from "./Images/EdukinHomepage.png"
 import currChange from "./Images/CurrChangeHomepage.png"
+import intellibot from "./Images/Intellibot.png"
 
 let ProjectArray = [
+  {
+    information:
+      "Intellibot is platform where Student of employees can give the mock interview with AI. and based on there performance AI will give Good Feedback.Also we implemented leaderboard to student can compare with other students.if Student want to see there Recording we have implemented the view Recording as well as student can see there all conversion with AI. ",
+    title: "Intellibot.com",
+    techStacks: [
+      "HTML5",
+      "CSS3",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Axios",
+      "ChakraUI",
+      "MongoDB",
+      "Node.js",
+      "Express",
+      "OpenAPI",
+      "Chart.js"
+    ],
+    img: intellibot,
+    github: "https://github.com/JahirPendhari09/Intellibot",
+    deployLink: "https://intellibotfrontend.vercel.app/"
+  },
   {
     information:
       "PaintKu, where art finds its home. Discover a world of exquisite paintings through this innovative e-commerce platform. Browse, select, and acquire stunning artworks while enjoying the convenience of tracking your recent visits. Welcome to the gallery at your fingertips.",
@@ -55,16 +78,7 @@ let ProjectArray = [
     img: localPay,
     github: "https://github.com/JahirPendhari09/energized-secretary-1272",
     deployLink: "https://local-pay.netlify.app/",
-  },
-  {
-    information:
-      "This website is about Currency conversion.",
-    title: "Paywise.com",
-    techStacks: ["HTML5", "CSS3", "JavaScript"],
-    img: currChange,
-    github: "https://github.com/JahirPendhari09/huge-end-8625",
-    deployLink: "https://648eae9e78649d0692a5ba18--fancy-frangollo-56a5ff.netlify.app/",
-  },
+  }
 ];
 
 const Project = ({ theme }) => {
@@ -80,7 +94,7 @@ const Project = ({ theme }) => {
       id="projects"
       pb="6rem"
       ref={ref}
-      className={!theme ? style.project : style.projectDark} 
+      className={!theme ? style.project : style.projectDark}
     >
       <Heading
         as="h1"
@@ -98,15 +112,15 @@ const Project = ({ theme }) => {
         m="4rem auto"
         textShadow="2px 2px 10px rgb(250 200 100)"
       >
-           <span
+        <span
           style={{
             boxShadow: "0px 0px 3px grey",
             padding: "0.2rem 0.8rem",
             borderTopLeftRadius: "5px",
             borderTopRightRadius: "5px",
             borderBottom: `3px solid ${!theme ? "#3182CE" : "#8B54F8"}`,
-            color:`${!theme ? "black" : "white"}`,
-            background:`${!theme?"rgb(206, 241, 247)":"black"}`
+            color: `${!theme ? "black" : "white"}`,
+            background: `${!theme ? "rgb(206, 241, 247)" : "black"}`
           }}
         >
           {" "}
