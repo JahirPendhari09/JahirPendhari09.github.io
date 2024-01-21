@@ -6,9 +6,9 @@ import style from "./Project.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import localPay from "./Images/LocalPageHomepage.png";
-import Edukin from "./Images/EdukinHomepage.png"
-import currChange from "./Images/CurrChangeHomepage.png"
-import intellibot from "./Images/Intellibot.png"
+import Edukin from "./Images/EdukinHomepage.png";
+import intellibot from "./Images/Intellibot.png";
+import EduQuick from "./Images/EduQuick.png";
 
 let ProjectArray = [
   {
@@ -65,8 +65,8 @@ let ProjectArray = [
   },
   {
     information:
-      "Local Pay using HTML, CSS, JavaScript, React and Chakra UI for Masai School project, showcasing skills in full-stack web development, API integration, and UI design.",
-    title: "Local.com",
+      "Interactive Learning Platform: We have meticulously designed an interactive and user-friendly online platform that provides an immersive online learning experience for Users. The platform incorporates cutting-edge technology to engage students through games, quizzes, multimedia content, and live interactive sessions.",
+    title: "EduQuick.com",
     techStacks: [
       "HTML5",
       "CSS3",
@@ -78,7 +78,7 @@ let ProjectArray = [
       "MongoDB",
       "Express.js"
     ],
-    img: localPay,
+    img: EduQuick,
     github: "https://github.com/JahirPendhari09/EduQuik",
     deployLink: "https://eduquikneo.netlify.app/",
   },
@@ -95,7 +95,7 @@ let ProjectArray = [
       "ChakraUI",
     ],
     img: localPay,
-    github: "https://github.com/JahirPendhari09/energized-secretary-1272",
+    github: "https://github.com/JahirPendhari09/Local-Pay",
     deployLink: "https://local-pay.netlify.app/",
   }
 ];
