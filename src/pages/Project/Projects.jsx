@@ -74,6 +74,25 @@ let ProjectArray = [
       "React",
       "Axios",
       "ChakraUI",
+      "Node.js",
+      "MongoDB",
+      "Express.js"
+    ],
+    img: localPay,
+    github: "https://github.com/JahirPendhari09/EduQuik",
+    deployLink: "https://eduquikneo.netlify.app/",
+  },
+  {
+    information:
+      "Local Pay using HTML, CSS, JavaScript, React and Chakra UI for Masai School project, showcasing skills in full-stack web development, API integration, and UI design.",
+    title: "Local.com",
+    techStacks: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Axios",
+      "ChakraUI",
     ],
     img: localPay,
     github: "https://github.com/JahirPendhari09/energized-secretary-1272",
@@ -102,12 +121,8 @@ const Project = ({ theme }) => {
         data-aos="fade-down"
         data-aos-delay="20"
         data-aos-duration="700"
-        // data-aos-offset="200"
         data-aos-easing="ease-in-out"
         lineHeight="3rem"
-        // borderBottom="3px solid green"
-        //  width={{base:"10%",sm:"22%",md:"13%"}}
-        // width={{ base: "80%", sm: "38%", md: "12%" }}
         fontSize={{ base: "1.3rem", sm: "1.6rem", md: "2rem" }}
         m="4rem auto"
         textShadow="2px 2px 10px rgb(250 200 100)"
